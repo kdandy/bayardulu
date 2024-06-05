@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://nextjs.org">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/564x/dd/c0/cb/ddc0cb49ea8e9c38be6e4ea779813932.jpg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/236x/0b/ad/9a/0bad9ac6069bb024d04023fe0370a812.jpg">
     </picture>
     <h1 align="center">bayardulu encryption</h1>
     <h2 align="center">Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel.</h2>
