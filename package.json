@@ -1,7 +1,7 @@
 {
   "name": "bayardulu",
-  "version": "1.0.0",
-  "description": "Sebuah script node.js untuk meng-encrypt source code project client kamu yang gak mau bayar",
+  "version": "1.0.1",
+  "description": "Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel",
   "main": "./bin/bayardulu.js",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "bayardulu": "bin/bayardulu.js"
   },
   "dependencies": {
-    "bayardulu": "^1.0.0",
+    "bayardulu": "^1.0.1",
     "chalk": "^4.1.2",
     "commander": "^8.3.0"
   },
@@ -31,8 +31,7 @@
   },
   "homepage": "https://github.com/kdandy/bayardulu#readme",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "lib": "lib"
   },
   "scripts": {
     "test": "bayardulu"
