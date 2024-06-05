@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Sebuah script node.js untuk meng-encrypt source code project client kamu yang gak mau bayar",
   "main": "./bin/bayardulu.js",
-  "repository": "git@github.com:kdandy/bayardulu.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kdandy/bayardulu.git"
+  },
   "author": "kdandy <dandy@triefecta.com>",
   "license": "GPL-3.0-only",
   "devDependencies": {
     "eslint": "^8.2.0"
   },
   "bin": {
-    "bayardulu": "./bin/bayardulu.js"
+    "bayardulu": "bin/bayardulu.js"
   },
   "dependencies": {
     "bayardulu": "^1.0.0",
@@ -22,5 +25,16 @@
     "encryption",
     "decryption",
     "cryptography"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/kdandy/bayardulu/issues"
+  },
+  "homepage": "https://github.com/kdandy/bayardulu#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "bayardulu"
+  }
 }
