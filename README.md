@@ -1,4 +1,5 @@
 ## bayardulu encryptor
+<img src="https://i.pinimg.com/564x/dd/c0/cb/ddc0cb49ea8e9c38be6e4ea779813932.jpg"
 
 Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel.
 
