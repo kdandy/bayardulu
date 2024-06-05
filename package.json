@@ -1,0 +1,26 @@
+{
+  "name": "bayardulu",
+  "version": "1.0.0",
+  "description": "Sebuah script node.js untuk meng-encrypt source code project client kamu yang gak mau bayar",
+  "main": "./bin/bayardulu.js",
+  "repository": "git@github.com:kdandy/bayardulu.git",
+  "author": "kdandy <dandy@triefecta.com>",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "bin": {
+    "bayardulu": "./bin/bayardulu.js"
+  },
+  "dependencies": {
+    "bayardulu": "^1.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0"
+  },
+  "keywords": [
+    "bayardulu",
+    "encryption",
+    "decryption",
+    "cryptography"
+  ]
+}
