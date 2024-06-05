@@ -3,7 +3,7 @@
 Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel.
 
 <p align=center>
-  <a href="https://www.npmjs.com/package/bayardulu"><img src="" alt="NPM Version"/><a>
+  <a href="https://www.npmjs.com/package/bayardulu"><img src="https://badge.fury.io/js/bayardulu.png" alt="NPM Version"/><a>
 </p>
 
 ## Requirements
