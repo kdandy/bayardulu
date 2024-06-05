@@ -3,8 +3,7 @@
 Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel.
 
 <p align=center>
-  <a href="https://instagram.com/sagarasheilendra"><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"></a>&nbsp;
-  <a href=""><img src="https://badge.fury.io/js/bayardulu.svg" alt="NPM Version"/><a>
+  <a href="https://www.npmjs.com/package/bayardulu"><img src="" alt="NPM Version"/><a>
 </p>
 
 ## Requirements
