@@ -1,7 +1,12 @@
-## bayardulu encryptor
-<img src="https://i.pinimg.com/564x/dd/c0/cb/ddc0cb49ea8e9c38be6e4ea779813932.jpg"
-
-Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel.
+<p align="center">
+  <a href="https://nextjs.org">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/564x/dd/c0/cb/ddc0cb49ea8e9c38be6e4ea779813932.jpg">
+    </picture>
+    <h1 align="center">bayardulu encryption</h1>
+    <h2 align="center">Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel.</h2>
+  </a>
+</p>
 
 <p align=center>
   <a href="https://www.npmjs.com/package/bayardulu"><img src="https://badge.fury.io/js/bayardulu.png" alt="NPM Version"/><a>
