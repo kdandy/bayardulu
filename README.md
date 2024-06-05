@@ -150,11 +150,3 @@ You guys can support me on the tracteer platform! Your support will be very help
 <p></p>
 
 <a href="https://trakteer.id/kdandy" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="50" style="border:0px;height:50px;" alt="Trakteer Saya"></a><a href="https://www.buymeacoffee.com/kdandy"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="kdandy" /></a><a href="https://ko-fi.com/kdandy"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="kdandy" /></a><p></p>
-
-## Informasi lebih lanjut
-
-Apabila ada yang mau ditanyakan soal skrip ini, bisa langsung pm saya:
-
-<p align=center>
-<a href="#" target="_blank"><img src="https://img.shields.io/badge/Contact-me-green?style=for-the-badge"/></a>
-</p>
