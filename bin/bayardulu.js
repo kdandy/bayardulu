@@ -3,7 +3,7 @@
 const { Command } = require('commander')
 const program = new Command()
 
-// imported files
+// ngeimported files
 const info = require('../package.json')
 const encrypt = require('../lib/utils/encrypt')
 const decrypt = require('../lib/utils/decrypt')
