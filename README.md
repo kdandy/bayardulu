@@ -3,7 +3,7 @@
     <picture> 
       <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/236x/0b/ad/9a/0bad9ac6069bb024d04023fe0370a812.jpg">
     </picture>
-    <h1 align="center">bayardulu encryption</h1>
+    <h1 align="center">bayardulu encryption.</h1>
     <h3 align="center">Sebuah script node.js untuk meng-encrypt source code project client kamu yang bandel.</h3>
   </a>
 </p>
