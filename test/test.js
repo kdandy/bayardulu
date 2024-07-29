@@ -21,6 +21,9 @@ console.log(`Encrypt command: ${encryptCommand}`);
 exec(encryptCommand, (err, stdout, stderr) => {
   if (err) {
     console.error(`Encrypt Error: ${stderr}`);
+    console.error(`Encrypt Error Code: ${err.code}`);
+    console.error(`Encrypt Error Signal: ${err.signal}`);
+    console.error(`Encrypt Error Stack: ${err.stack}`);
     process.exit(1);
   } else {
     console.log(`Encrypt Output: ${stdout}`);
@@ -38,6 +41,9 @@ exec(encryptCommand, (err, stdout, stderr) => {
     exec(decryptCommand, (err, stdout, stderr) => {
       if (err) {
         console.error(`Decrypt Error: ${stderr}`);
+        console.error(`Decrypt Error Code: ${err.code}`);
+        console.error(`Decrypt Error Signal: ${err.signal}`);
+        console.error(`Decrypt Error Stack: ${err.stack}`);
         process.exit(1);
       } else {
         console.log(`Decrypt Output: ${stdout}`);
