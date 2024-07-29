@@ -9,13 +9,13 @@ const decryptedFilePath = `${testFilePath}.dec`;
 // Buat file dummy untuk pengujian
 fs.writeFileSync(testFilePath, 'Ini adalah file dummy untuk pengujian.');
 
-exec(`node bin/bayardulu.js encrypt -o ${encryptedFilePath} ${testFilePath}`, (err, stdout, stderr) => {
+exec(`node bin/bayardulu.js encrypt ${testFilePath}`, (err, stdout, stderr) => {
   if (err) {
     console.error(`Encrypt Error: ${stderr}`);
     process.exit(1);
   } else {
     console.log(`Encrypt Output: ${stdout}`);
-    exec(`node bin/bayardulu.js decrypt -o ${decryptedFilePath} ${encryptedFilePath}`, (err, stdout, stderr) => {
+    exec(`node bin/bayardulu.js decrypt ${encryptedFilePath}`, (err, stdout, stderr) => {
       if (err) {
         console.error(`Decrypt Error: ${stderr}`);
         process.exit(1);
