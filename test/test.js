@@ -25,6 +25,12 @@ exec(encryptCommand, (err, stdout, stderr) => {
   } else {
     console.log(`Encrypt Output: ${stdout}`);
 
+    // Check if encrypted file was created
+    if (!fs.existsSync(encryptedFilePath)) {
+      console.error(`Encrypted file was not created: ${encryptedFilePath}`);
+      process.exit(1);
+    }
+
     // Decrypt the encrypted file
     const decryptCommand = `node bin/bayardulu.js decrypt ${encryptedFilePath} -k N7wKWb5434FLD -o ${decryptedFilePath}`;
     console.log(`Decrypt command: ${decryptCommand}`);
@@ -35,6 +41,12 @@ exec(encryptCommand, (err, stdout, stderr) => {
         process.exit(1);
       } else {
         console.log(`Decrypt Output: ${stdout}`);
+
+        // Check if decrypted file was created
+        if (!fs.existsSync(decryptedFilePath)) {
+          console.error(`Decrypted file was not created: ${decryptedFilePath}`);
+          process.exit(1);
+        }
 
         // Read contents of the original and decrypted files
         const originalContent = fs.readFileSync(testFilePath, 'utf8');
