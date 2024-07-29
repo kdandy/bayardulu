@@ -6,15 +6,15 @@ const testFilePath = path.join(__dirname, 'dummy.txt');
 const encryptedFilePath = `${testFilePath}.bayardulu`;
 const decryptedFilePath = `${testFilePath}.dec`;
 
-// Buat file dummy untuk pengujian
+// Create dummy file for testing
 fs.writeFileSync(testFilePath, 'Ini adalah file dummy untuk pengujian.');
 
-// Log untuk debugging path
+// Log paths for debugging
 console.log(`Test file path: ${testFilePath}`);
 console.log(`Encrypted file path: ${encryptedFilePath}`);
 console.log(`Decrypted file path: ${decryptedFilePath}`);
 
-// Encrypt file dummy
+// Encrypt dummy file
 const encryptCommand = `node bin/bayardulu.js encrypt ${testFilePath} -x bayardulu`;
 console.log(`Encrypt command: ${encryptCommand}`);
 
@@ -24,9 +24,9 @@ exec(encryptCommand, (err, stdout, stderr) => {
     process.exit(1);
   } else {
     console.log(`Encrypt Output: ${stdout}`);
-    
-    // Decrypt file terenkripsi
-    const decryptCommand = `node bin/bayardulu.js decrypt ${encryptedFilePath} -k N7wKWb5434FLD -o`;
+
+    // Decrypt the encrypted file
+    const decryptCommand = `node bin/bayardulu.js decrypt ${encryptedFilePath} -k N7wKWb5434FLD -o ${decryptedFilePath}`;
     console.log(`Decrypt command: ${decryptCommand}`);
 
     exec(decryptCommand, (err, stdout, stderr) => {
@@ -35,12 +35,12 @@ exec(encryptCommand, (err, stdout, stderr) => {
         process.exit(1);
       } else {
         console.log(`Decrypt Output: ${stdout}`);
-        
-        // Baca konten file asli dan file hasil dekripsi
-        const originalContent = fs.readFileSync(testFilePath, 'utf8');
-        const decryptedContent = fs.readFileSync(testFilePath, 'utf8');
 
-        // Verifikasi bahwa konten file asli dan file hasil dekripsi sama
+        // Read contents of the original and decrypted files
+        const originalContent = fs.readFileSync(testFilePath, 'utf8');
+        const decryptedContent = fs.readFileSync(decryptedFilePath, 'utf8');
+
+        // Verify that the original and decrypted contents are the same
         if (originalContent === decryptedContent) {
           console.log('Test passed: decrypted content matches original content');
           process.exit(0);
